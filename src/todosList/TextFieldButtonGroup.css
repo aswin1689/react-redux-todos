@@ -1,0 +1,26 @@
+.text-button-group {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.input--text__large {
+  font-size: 1rem;
+  padding: 10px;
+  border: 2px solid #ccc;
+  width: 400px;
+}
+
+.btn--primary__large {
+  padding: 10px;
+  background-color: #0065ff;
+  color: #fff;
+  border: 2px solid #0066ff;
+  font-size: 1rem;
+}
+
+.btn--primary__large:hover {
+  background-color: #003399;
+  border: 2px solid #003399;
+  cursor: pointer;
+}

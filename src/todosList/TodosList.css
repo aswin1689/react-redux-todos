@@ -1,0 +1,27 @@
+.todosList {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.todo {
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #333;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  transition: background-color 0.25s ease-out;
+}
+
+.todo:hover {
+  background-color: pink;
+  cursor: pointer;
+}
+
+.todo__completed {
+  text-decoration: line-through;
+}
